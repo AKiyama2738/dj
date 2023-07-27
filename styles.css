@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-box {
+    width: 3000px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 0.5s ease-in-out; /* 添加过渡效果 */
+}
+
+.img-box img {
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.index-box {
+    width: 40px;
+    height: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.arrow {
+    width: 40px;
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+    top: 160px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}

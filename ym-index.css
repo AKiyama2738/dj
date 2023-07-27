@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(0, 0, 0,0.4);
+    justify-content: center;
+    z-index: 999;
+    position:relative;
+}
+.flex-item {
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin: 30px 40px 30px 0;
+    cursor: pointer;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+.flex-item:hover {
+    border-bottom: 5px solid #d7c67d;
+}
+.active {
+    color: #d7c67d !important;
+}
+.flex-item-logo {
+    line-height: 100px;
+    color: white;
+    padding: 0 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    font-weight: 900;
+    /* background-image: url(../assets/logo.svg);
+    background-size:100% 100%;
+    background-repeat:no-repeat; */
+    background-color: #d7c67d;
+    width: 130px;
+    -webkit-mask: url(img/logo.svg) no-repeat 50% 50%;
+    mask: url(img/logo.svg) no-repeat 50% 50%;
+    margin-right: 40px !important;
+}
