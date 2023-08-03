@@ -1,29 +1,141 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dj-group</title>
-    <link href="ym-index.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-    <div class="header">
-        <div class="main">
-            <div class="flex-item-logo"><img src="img/logoG.svg" alt=""></div>
-            <div class="flex-item active"><a href="index.html">首页</a></div>
-            <div class="flex-item"><a href="about.html">关于涤旧</a></div>
-            <div class="flex-item"><a href="business.html">集团业务</a></div>
-            <div class="flex-item"><a href="trends.html">集团动态</a></div>
-            <div class="flex-item"><a href="cooperation.html">合作伙伴</a></div>
-            <div class="flex-item"><a href="connected.html">联系我们</a></div>
-            <div class="flex-item language flex">
-                <img src="img/zh.svg" class="languageico" alt="">
-                <p class="language">中文</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>dj-group</title>
+        <link href="ym-index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="main">
+                <div class="main-box flex flex-center">
+                    <div class="flex-item-logo"><img src="img/logoG.svg" alt=""></div>
+                    <div class="flex-item"><a href="index.html">首页</a></div>
+                    <div class="flex-item"><a id="about-a" href="about.html">关于涤旧</a>
+                        <!-- <div class="about-drop">
+                    <div class="drop-item">公司简介</div>
+                    <div class="drop-item">组织架构</div>
+                    <div class="drop-item">企业文化</div>
+                    <div class="drop-item">企业荣誉</div>
+                    <div class="drop-item">企业相册</div>
+                </div> -->
+                    </div>
+                    <div class="flex-item"><a href="e-commerce.html">集团业务</a></div>
+                    <div class="flex-item"><a href="groupnews.html">集团动态</a></div>
+                    <div class="flex-item"><a href="partner.html">合作伙伴</a></div>
+                    <div class="flex-item active"><a href="connected.html">联系我们</a></div>
+                    <div class="flex-item language flex">
+                        <img src="img/zh.svg" class="languageico" alt="">
+                        <p class="language">中文</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div><img class="imgs" src="img/connected/banner.png" alt=""></div>
-    <div><img src="img/connected/connected.png" class="imgs" alt=""></div>
-    <div><img src="img/index/foot.png" class="imgs" alt=""></div>
-</body>
+        <div><img class="imgs" src="img/connected/banner.png" alt=""></div>
+        <div class="content-about flex-column">
+            <div class="nav flex flex-center">
+                <div class="nva-item flex-horizontal flex"><img src="img/home.svg" alt=""><span>首页</span></div>
+                <div class="nva-item flex-horizontal flex"><img src="img/right.svg" alt=""><span>联系我们</span></div>
+                <div class="nva-item flex-reight-horizontal flex havePadding-right"><img src="img/QR.svg"
+                        alt=""><span>手机访问</span></div>
+                <div class="nva-item flex-horizontal flex noPadding-right"><img src="img/share.svg"
+                        alt=""><span>分享</span></div>
+            </div>
+            <div class="main-content flex">
+                <div class="contact-main-box">
+                    <div class="contact-box">
+                        <div class="contact-title flex">
+                            <h1>与我们联系</h1>
+                            <h1 class="color-sub">CONTACT US</h1>
+                        </div>
+                        <div class="contact-content flex">
+                            <div class="contact-content-left">
+                                <div class="contact-content-item">
+                                    <h3>欢迎致电业务顾问，获得一对一的专属服务。</h3>
+                                    <h1>4008-0505-12</h1>
+                                </div>
+                                <div class="contact-content-item">
+                                    <h3 class="flex"><img class="contact-icon flex-bottom flex-top" src="img/mail.svg"
+                                            alt="">电子邮箱</h3>
+                                    <h4>dijiujituan2016@163.com</h4>
+                                </div>
+                                <div class="contact-content-item">
+                                    <h3 class="flex"><img class="contact-icon flex-bottom flex-top" src="img/print.svg"
+                                            alt="">传真</h3>
+                                    <h4>+86-0755-8888 8888</h4>
+                                </div>
+                                <div class="contact-content-item">
+                                    <h3 class="flex"><img class="contact-icon flex-bottom flex-top"
+                                            src="img/address.svg" alt="">地址</h3>
+                                    <h4 class="haveMargin-bottom10">深圳市龙岗区平吉大道平朗路9号万国城B座7层</h4>
+                                    <img class="img-aaddress" src="img/connected/add.png" alt="">
+                                </div>
+                            </div>
+                            <div class="contact-content-right">
+                                <div class="contact-content-item">
+                                    <h3 class="flex">填写以下表格，我们的专属业务顾问将会尽快与您联系。</h3>
+                                    <div class="from"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="flex">
+            <div class="flex-column width100">
+                <div class="foot-main flex flex-center">
+                    <div class="foot-item ">
+                        <h4>关于涤旧</h4>
+                        <p>公司简介</p>
+                        <p>组织架构</p>
+                        <p>企业文化</p>
+                        <p>企业荣誉</p>
+                        <p>企业相册</p>
+                    </div>
+                    <div class="foot-item">
+                        <h4>集团业务</h4>
+                        <p>草木青</p>
+                        <p>电商业务部</p>
+                    </div>
+                    <div class="foot-item">
+                        <h4>集团动态</h4>
+                        <p>行业新闻</p>
+                        <p>集团新闻</p>
+                        <p>社会责任</p>
+                    </div>
+                    <div class="foot-item">
+                        <h4>合作伙伴</h4>
+                        <p>上游战略供应商</p>
+                        <p>下游战略合作渠道</p>
+                    </div>
+                    <div class="foot-item">
+                        <h4>联系我们</h4>
+                        <p>4008-0505</p>
+                        <p>dijiujituan2016@163.com</p>
+                        <p>深圳市龙岗区平吉大道平朗路9号万国城B座7层</p>
+                        <img src="img/index/mt.png" alt="">
+                        <img src="img/index/tiktok.png" alt="">
+                        <img src="img/index/lb.png" alt="">
+                        <img src="img/index/dd.png" alt="">
+                        <img src="img/index/pupu.png" alt="">
+                    </div>
+                </div>
+                <div class="divided flex-center"></div>
+                <div class="foot-bottom flex-column flex-center">
+                    <div class="flex-center flex-justify">
+                        <img src="img/index/en.png" alt=""><span class="haveMargin-right">English</span>
+                        <img src="img/index/zh.png" alt=""><span>中文</span>
+                    </div>
+                    <div class="flex-center">
+                        <p>© 2023 涤旧 ( 深圳 ) 供应链集团有限公司 版本所有</p>
+                    </div>
+                    <div class="flex-center">
+                        <p>备案号：粤ICP备2023024000号</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
